@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  direction: rtl;
+  text-align: right;
+  background: #050509;
+  color: #eee;
+  margin: 0;
+}
+.box {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #141420;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+}
+input, select {
+  width: 100%;
+  padding: 6px;
+  margin: 4px 0;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background: #050509;
+  color: #eee;
+}
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #ff2fd0;
+  color: #fff;
+  cursor: pointer;
+}
+a {
+  color: #7dd3ff;
+}
+h1, h2, h3 {
+  margin-top: 0;
+}
+.club-neon {
+  color: #7df9ff;
+}
+.club-elvis {
+  color: #ffd166;
+}
+.club-enot {
+  color: #ff6b6b;
+}
+.prices-table, .perm-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+.prices-table th, .prices-table td,
+.perm-table th, .perm-table td {
+  border: 1px solid #444;
+  padding: 4px 6px;
+}
+.perm-target {
+  cursor: pointer;
+  user-select: none;
+}
